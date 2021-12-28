@@ -1,0 +1,9 @@
+This code is so that I can automate a process within a game. 
+
+The process is fishing within a game. There is a stage when fishing that the rod lays in my hands at a static position when the line is in the water. When the fish bites it pulls the line along with my hands. 
+
+I am taking images of the static position which is a specific part of the fishing pole that is light gray. The original program had a pure black fishing pole with rgb of 0,0,0 so it was able to run fine but the game I am running it in has a light gray fishing pole thus the rgb is somewhere around 30,30,30. This is causing an issue with my program becuase the light gray fishing pole is never registered as the code thinks there are no black pixels becuase there aren't any. 
+
+I am trying to increase the threshold so that the code can detect the grayish fishing pole's pixels and then when the fish bites causing the fishing pole to move out of the region I am taking images from, the action to reel the poll in takes place. 
+
+Please help me in increasing this threshold so that I am have a working porgram. 
